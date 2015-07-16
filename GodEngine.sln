@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GodEngine", "GodEngine\GodEngine.vcxproj", "{D44A0F59-75CB-4EDA-8171-94B9DE141A3F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GodConsole", "GodConsole\GodConsole.vcxproj", "{E8858389-8C3F-46F0-BFE0-75EE8D312C78}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GodRenderSystemD3D9", "GodRenderSystemD3D9\GodRenderSystemD3D9.vcxproj", "{044FDFD5-76D9-4E49-8215-2EEBB3B896CB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GodEditor", "GodEditor\GodEditor.vcxproj", "{B12702AD-ABFB-343A-A199-8E24837244A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D44A0F59-75CB-4EDA-8171-94B9DE141A3F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D44A0F59-75CB-4EDA-8171-94B9DE141A3F}.Debug|Win32.Build.0 = Debug|Win32
+		{D44A0F59-75CB-4EDA-8171-94B9DE141A3F}.Debug|x64.ActiveCfg = Debug|Win32
+		{D44A0F59-75CB-4EDA-8171-94B9DE141A3F}.Release|Win32.ActiveCfg = Release|Win32
+		{D44A0F59-75CB-4EDA-8171-94B9DE141A3F}.Release|Win32.Build.0 = Release|Win32
+		{D44A0F59-75CB-4EDA-8171-94B9DE141A3F}.Release|x64.ActiveCfg = Release|Win32
+		{E8858389-8C3F-46F0-BFE0-75EE8D312C78}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E8858389-8C3F-46F0-BFE0-75EE8D312C78}.Debug|Win32.Build.0 = Debug|Win32
+		{E8858389-8C3F-46F0-BFE0-75EE8D312C78}.Debug|x64.ActiveCfg = Debug|x64
+		{E8858389-8C3F-46F0-BFE0-75EE8D312C78}.Debug|x64.Build.0 = Debug|x64
+		{E8858389-8C3F-46F0-BFE0-75EE8D312C78}.Release|Win32.ActiveCfg = Release|Win32
+		{E8858389-8C3F-46F0-BFE0-75EE8D312C78}.Release|Win32.Build.0 = Release|Win32
+		{E8858389-8C3F-46F0-BFE0-75EE8D312C78}.Release|x64.ActiveCfg = Release|x64
+		{E8858389-8C3F-46F0-BFE0-75EE8D312C78}.Release|x64.Build.0 = Release|x64
+		{044FDFD5-76D9-4E49-8215-2EEBB3B896CB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{044FDFD5-76D9-4E49-8215-2EEBB3B896CB}.Debug|Win32.Build.0 = Debug|Win32
+		{044FDFD5-76D9-4E49-8215-2EEBB3B896CB}.Debug|x64.ActiveCfg = Debug|Win32
+		{044FDFD5-76D9-4E49-8215-2EEBB3B896CB}.Release|Win32.ActiveCfg = Release|Win32
+		{044FDFD5-76D9-4E49-8215-2EEBB3B896CB}.Release|Win32.Build.0 = Release|Win32
+		{044FDFD5-76D9-4E49-8215-2EEBB3B896CB}.Release|x64.ActiveCfg = Release|Win32
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|Win32.Build.0 = Debug|Win32
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Debug|x64.ActiveCfg = Debug|Win32
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|Win32.ActiveCfg = Release|Win32
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|Win32.Build.0 = Release|Win32
+		{B12702AD-ABFB-343A-A199-8E24837244A3}.Release|x64.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
