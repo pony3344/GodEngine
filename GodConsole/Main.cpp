@@ -111,6 +111,10 @@ int main()
 	vertDecl->addElement(0, 0, GVDT_FLOAT3, GVM_DEFAULT, GVUT_POSITION, 0);
 	vertDecl->update();
 
+	StringStream data;
+	data << "Num of vertex elements: " << vertDecl->getNumElements() << endl;;
+	MessageBox(NULL, data.str().c_str(), nullptr, MB_OK);
+
 	Texture* texture = new TextureD3D9(dev);
 	texture->createDynamicTexture("Dynamic", 512, 512, "A8R8G8B8");
 

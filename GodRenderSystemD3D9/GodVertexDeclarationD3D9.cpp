@@ -34,7 +34,7 @@ namespace GodEngine
 	IDirect3DVertexDeclaration9* VertexDeclarationD3D9::updateDeclaration()
 	{
 		IDirect3DVertexDeclaration9* decl = 0;
-		D3DVERTEXELEMENT9* elem = new D3DVERTEXELEMENT9[m_vertElements.size() - 1];
+		D3DVERTEXELEMENT9* elem = new D3DVERTEXELEMENT9[m_vertElements.size() + 1];
 
 		int idX = 0;
 		for (idX = 0, m_veIter = m_vertElements.begin(); m_veIter != m_vertElements.end(); ++m_veIter, ++idX)
