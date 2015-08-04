@@ -57,7 +57,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions);D3D_DEBUG_INFO</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -72,7 +72,7 @@
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions);D3D_DEBUG_INFO</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -92,6 +92,8 @@
     <ClInclude Include="GodDeviceD3D9.h" />
     <ClInclude Include="GodImageD3D9.h" />
     <ClInclude Include="GodRenderWindowD3D9.h" />
+    <ClInclude Include="GodTextureD3D9.h" />
+    <ClInclude Include="GodVertexDeclarationD3D9.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GodAdapterManager.cpp" />
@@ -100,6 +102,8 @@
     <ClCompile Include="GodDeviceD3D9.cpp" />
     <ClCompile Include="GodImageD3D9.cpp" />
     <ClCompile Include="GodRenderWindowD3D9.cpp" />
+    <ClCompile Include="GodTextureD3D9.cpp" />
+    <ClCompile Include="GodVertexDeclarationD3D9.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

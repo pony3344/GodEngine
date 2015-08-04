@@ -28,6 +28,7 @@ namespace GodEngine
 		virtual bool loadImage(String imageName,
 			String fileName);
 
+
 		virtual void lock(void* pData, Rectangle2D& rect, int flag);
 
 		virtual void unlock();

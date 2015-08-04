@@ -50,6 +50,12 @@
     <ClCompile Include="GeneratedFiles\qrc_godeditor.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
+    <ClCompile Include="GodShaderTextEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GodShaderEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="godeditor.h">
@@ -65,6 +71,12 @@
   <ItemGroup>
     <ClInclude Include="GeneratedFiles\ui_godeditor.h">
       <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GodShaderEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GodShaderTextEdit.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

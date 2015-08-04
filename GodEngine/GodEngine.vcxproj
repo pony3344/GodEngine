@@ -81,10 +81,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="GodDataTypes.h" />
+    <ClInclude Include="GodEnum.h" />
     <ClInclude Include="GodImage.h" />
     <ClInclude Include="GodPrerequisites.h" />
     <ClInclude Include="GodRectangle2D.h" />
     <ClInclude Include="GodRenderWindow.h" />
+    <ClInclude Include="GodTexture.h" />
+    <ClInclude Include="GodVertexDeclaration.h" />
+    <ClInclude Include="GodVertexElement.h" />
     <ClInclude Include="GodWindow.h" />
     <ClInclude Include="GodWindowManager.h" />
   </ItemGroup>
@@ -92,6 +96,9 @@
     <ClCompile Include="GodImage.cpp" />
     <ClCompile Include="GodRectangle2D.cpp" />
     <ClCompile Include="GodRenderWindow.cpp" />
+    <ClCompile Include="GodTexture.cpp" />
+    <ClCompile Include="GodVertexDeclaration.cpp" />
+    <ClCompile Include="GodVertexElement.cpp" />
     <ClCompile Include="GodWindow.cpp" />
     <ClCompile Include="GodWindowManager.cpp" />
   </ItemGroup>

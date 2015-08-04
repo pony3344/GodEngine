@@ -3,6 +3,7 @@
 
 #include <QtWidgets/QMainWindow>
 #include "ui_godeditor.h"
+#include "GodShaderEditor.h"
 
 class GodEditor : public QMainWindow
 {
@@ -13,6 +14,8 @@ public:
 	~GodEditor();
 
 private:
+	GodShaderEditor* m_sedit;
+	GodShaderTextEdit* m_shaderTE;
 	Ui::GodEditorClass ui;
 };
 

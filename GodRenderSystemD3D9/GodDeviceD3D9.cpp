@@ -55,10 +55,8 @@ namespace GodEngine
 			MessageBox(nullptr, error, "Something happened", MB_OK);
 			return false;
 		}
-		else
-		{
-			return true;
-		}
+		this->m_D3DDev9->SetRenderState(D3DRS_ZENABLE, TRUE);
+		this->m_D3DDev9->SetRenderState(D3DRS_LIGHTING, FALSE);
 		return true;
 	}
 

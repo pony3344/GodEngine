@@ -39,6 +39,12 @@
     <ClInclude Include="GodRenderWindowD3D9.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="GodVertexDeclarationD3D9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GodTextureD3D9.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GodAdapterManager.cpp">
@@ -57,6 +63,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="GodRenderWindowD3D9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GodVertexDeclarationD3D9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GodTextureD3D9.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

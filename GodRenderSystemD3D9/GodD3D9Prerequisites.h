@@ -1,10 +1,6 @@
 #pragma once
 
-#if defined(DEBUG) || defined(_DEBUG)
-#ifndef D3D_DEBUG_INFO
-#define D3D_DEBUG_INFO
-#endif
-#endif
+
 
 #include "..//GodEngine/GodPrerequisites.h"
 
@@ -13,7 +9,11 @@
 #include <DxErr.h>
 
 #pragma comment(lib,"x86/d3d9.lib")
+#if defined(DEBUG) | defined(_DEBUG)
+#pragma comment(lib,"x86/d3dx9d.lib")
+#else
 #pragma comment(lib,"x86/d3dx9.lib")
+#endif
 #pragma comment(lib,"x86/dxerr.lib")
 
 #define ReleaseCOM(x) { if(x){x->Release(); x=0; } }
@@ -27,5 +27,7 @@ namespace GodEngine
 	class DisplayMode;
 	class D3D9Utility;
 	class ImageD3D9;
+	class TextureD3D9;
+	class VertexDeclarationD3D9;
 	class RenderWindowD3D9;
 }

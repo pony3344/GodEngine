@@ -1,3 +1,4 @@
+#pragma once
 #include "GodDataTypes.h"
 
 #define ReleaseClass(x) { if(x) { delete x; x=0;}}
@@ -12,6 +13,8 @@ namespace GodEngine
 	class Rectangle2D;
 	class RenderWindow;
 	class Texture;
+	class VertexElement;
+	class VertexDeclaration;
 	class WindowListener;
 	class Window;
 	class WindowManager;

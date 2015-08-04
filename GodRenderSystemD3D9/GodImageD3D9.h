@@ -18,6 +18,7 @@ namespace GodEngine
 			Rectangle2D& srcImageRect,
 			Rectangle2D& destImageRect,
 			DWORD colorKey);
+		bool loadImageAsTextureImp(String fileName, DWORD colorKey);
 	public:
 		ImageD3D9(IDirect3DDevice9* dev);
 
@@ -25,6 +26,8 @@ namespace GodEngine
 
 		bool loadImage(String imageName, String fileName);
 		
+		bool loadImageAsTexture(String imageName, String fileName);
+
 		void setColorKey(BYTE alpha,
 			BYTE red,
 			BYTE green,

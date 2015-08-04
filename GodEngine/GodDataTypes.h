@@ -7,6 +7,7 @@
 #include <sstream>
 #include <windows.h>
 #include <windowsx.h>
+#include "GodEnum.h"
 
 using namespace std;
 
